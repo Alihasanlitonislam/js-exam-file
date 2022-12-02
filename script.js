@@ -4,3 +4,6 @@ const filterArray = splitArray.filter(x => x.includes("age"))
 const mapArray = filterArray.map(x => Number(x.slice(4)))
 const setUpArray = mapArray.filter(x => x >= 23)
 console.log(setUpArray);
+console.log('\n\n')
+const examArray = array.split(", ").filter(x => x.includes("age")).map(x => Number(x.slice(4))).filter(x => x >= 25)
+console.log(examArray)
